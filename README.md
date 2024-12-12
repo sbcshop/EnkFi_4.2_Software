@@ -45,16 +45,16 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
 
 ## Getting Started with EnkFi 4.2" Board
 ### Pinout
-<img src= "https://github.com/sbcshop/EnkFi_7.5_Software/blob/main/images/EnkFi_7.5_pinout.png" />
+<img src= "https://github.com/sbcshop/EnkFi_4.2_Software/blob/main/images/EnkFi_4in2_pinout.png" />
 
 | | | |
 |--|--|--|
-|(1) Power LED          | (7) Buzzer                      | (13) Boot Button |
-|(2) Charging Status    | (8) GPIOs Breakout              | (14) Reset Button |
-|(3) Battery Connector  | (9) TF card slot                | (15) Programmable Buttons |
-|(4) E-paper connector  | (10) Native USB (USB_D+/USB_D-) | (16) Programmable Buttons  |
-|(5) DS3231 RTC         | (11) Serial USB                 | (17) 7.5” E-Paper Display |
-|(6) Coin Cell Holder   | (12) ESP32 S3 WROOM-1           | |
+|(1) ESP32 S3 WROOM-1         | (7) Buzzer                      | (13) Boot Button |
+|(2) Power LED                | (8) Coin Cell Holder            | (14) Reset Button |
+|(3) Charging Status          | (9) GPIOs Breakout              | (15) Programmable Buttons |
+|(4) Battery Connector        | (10) TF card slot               | (16) 7.5” E-Paper Display  |
+|(5) E-paper connector        | (11) Serial USB                 | (17) Programmable Buttons  |
+|(6) DS3231 RTC               | (12) Native USB (USB_D+/USB_D-) | |
   
 ### Interfacing Details
   
@@ -87,7 +87,7 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
   |IO4 | BT1 | Programmable Button |
   |IO5 | BT2 | Programmable Button |
   |IO6 | BT3 | Programmable Button |
-  |IO7 | BT3 | Programmable Button |
+  |IO7 | BT4 | Programmable Button |
 
 - **_DS3231 RTC interfacing with ESP32 using I2C_** 
 
@@ -174,9 +174,9 @@ This GitHub provides getting started instructions to use EnkFi 4.2" E-Paper.
    Now you are ready to try out your own codes, **_Happy Coding!_**
 
 ## Resources
-  * [Schematic](https://github.com/sbcshop/EnkFi_7.5_Hardware/blob/main/Design%20Data/EnkFi%207.5%20Sch.PDF)
-  * [Hardware Files](https://github.com/sbcshop/EnkFi_7.5_Hardware)
-  * [Step File](https://github.com/sbcshop/EnkFi_7.5_Hardware/blob/main/Mechanical%20Data/Enkfi_7in5.STEP)
+  * [Schematic](https://github.com/sbcshop/EnkFi_4.2_Hardware/blob/main/Design%20Data/SCH%20EnkFi_4in2.pdf)
+  * [Hardware Files](https://github.com/sbcshop/EnkFi_4.2_Hardware)
+  * [Step File](https://github.com/sbcshop/EnkFi_4.2_Hardware/blob/main/Mechanical%20Data/EnkFi_4in2.step)
   * [Getting Started with ESP32 in Arduino](https://docs.espressif.com/projects/arduino-esp32/en/latest/)
   * [ESP32 S3 Hardware Reference](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/hw-reference/index.html)
   * [ESP32 S3 Datasheet](https://github.com/sbcshop/3.2_Touchsy_ESP-32_Capacitive_Software/blob/main/documents/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
